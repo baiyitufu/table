@@ -67,7 +67,7 @@
 
 - (void)doneLoadingTableViewData{
     
-    
+    NSLog(@"dsfsd");
     if (_dragDirection) {
         _dragupLoading = NO;
         [_refreshFooterView egoRefreshScrollViewDataSourceDidFinishedLoading:tabView];
